@@ -1,0 +1,12 @@
+{
+    "elementSearch" : "#searchBox",
+    "btnAdd" : "#addNewRecordButton",
+    "elementFirstName" : "#firstName",
+    "elementLastName" : "#lastName",
+    "elementEmail" : "#userEmail",
+    "elementAge" : "#age",
+    "elementSalary" : "#salary",
+    "elementDepartment" : "#department",
+    "btnSubmit" : "#submit",
+    "optionModify" : "#edit-record-4 > svg > path"
+}
