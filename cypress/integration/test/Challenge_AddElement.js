@@ -36,5 +36,12 @@ describe ('In this file I am doing my first challenge', () =>{
                 edit.Department)
             }))
     })
+
+    it.only ('I want to delete a user', () =>{
+        cy.get('#delete-record-3').click()
+        cy.get('.rt-tbody').should('not.contain.text', 'Kierra')
+        
+      
+    })
        
 })
